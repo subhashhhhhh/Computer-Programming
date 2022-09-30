@@ -1,14 +1,14 @@
 #include<stdio.h>
 int main ()
 {
-	int a,b;
+	long a,b;
 	printf("value of a is: ");
-	scanf("%d", &a);
+	scanf("%ld", &a);
 	printf("value of b is: ");
-	scanf("%d", &b);
+	scanf("%ld", &b);
 	a=a+b;
 	b=a-b;
 	a=a-b;
-	printf("\nafter swapping, value of a and b are %d, %d",a,b);
+	printf("\nafter swapping, value of a and b are %ld, %ld",a,b);
 	return 0;
 }
