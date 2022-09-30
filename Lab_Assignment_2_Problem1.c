@@ -3,18 +3,18 @@
 
 int main ()
 {
-	int A,B,C;
+	long A,B,C;
 	printf("Value of A is: ");
-	scanf("%d" ,&A);
+	scanf("%ld" ,&A);
 	printf("Value of B is: ");
-	scanf("%d" ,&B);
+	scanf("%ld" ,&B);
 	
 	C=A;
 	A=B;
 	B=C;
 	
-	printf("\n After Swapping, value of A is %d" ,A);
-	printf("\n After Swapping, value of B is %d" ,B);
+	printf("\n After Swapping, value of A is %ld" ,A);
+	printf("\n After Swapping, value of B is %ld" ,B);
 	
 	return 0;
 }
