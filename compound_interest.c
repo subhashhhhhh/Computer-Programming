@@ -15,7 +15,7 @@ int main()
 	printf("\nnumber of time periods: ");
 	scanf("%lf" ,&t);
 	
-	compound_interest = P*(pow(((1 + r / n)n*t)));
+	compound_interest = P*(pow((1 + r / n),n*t));
 	
 	printf("compound interest is %lf" ,compound_interest);
 }
