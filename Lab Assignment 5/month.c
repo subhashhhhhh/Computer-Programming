@@ -6,31 +6,31 @@ int main ()
     scanf("%d", &month);
     switch(month)
     {
-        case 1: printf("Month is :  January");
+        case 1: printf("Month is  January");
                 break;
-        case 2: printf("Month is :  February");
+        case 2: printf("Month is February");
                 break;
-        case 3: printf("Month is :  March");
+        case 3: printf("Month is March");
                 break;
-        case 4: printf("Month is :  April");
+        case 4: printf("Month is April");
                 break;
-        case 5: printf("Month is :  May");
+        case 5: printf("Month is May");
                 break;
-        case 6: printf("Month is :  June");
+        case 6: printf("Month is June");
                 break;
-        case 7: printf("Month is :  July");
+        case 7: printf("Month is July");
                 break;
-        case 8: printf("Month is :  August");
+        case 8: printf("Month is August");
                 break;
-        case 9: printf("Month is :  September");
+        case 9: printf("Month is September");
                 break;
-        case 10: printf("Month is :  October");
+        case 10: printf("Month is October");
                 break;
-        case 11: printf("Month is :  November");
+        case 11: printf("Month is November");
                 break;
-        case 12: printf("Month is :  December");
+        case 12: printf("Month is December");
                 break;
-        default : printf("invalid number");
+        default : printf("invalid number bc");
     }
 	    	
 }
