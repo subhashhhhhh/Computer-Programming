@@ -13,6 +13,6 @@ int main ()
     printf("\nSelling price: ");
     scanf("%f", &c);
 
-    printf("\nGain percentage is %f", ((c - (a + b)) / (a + b) )*100);
+    printf("\nGain percentage is %.2f", ((c - (a + b)) / (a + b) )*100);
 
 }
