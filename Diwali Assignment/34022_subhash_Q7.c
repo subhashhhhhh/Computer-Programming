@@ -43,6 +43,7 @@ void smith(int n)
 int main()
 {
     int n;
+    printf("Subhash Gottumukkala (34022");
     printf("Enter the number: ");
     scanf("%d", &n);
     smith(n);
