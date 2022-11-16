@@ -1,0 +1,25 @@
+#include<stdio.h>
+int main()
+{
+    int DD,day; 
+printf("Enter the day of the month in DD format (date 28 for 28/3/2019): "); 
+scanf("%d", &DD);
+day=DD%7;
+switch(day){
+    case 1: printf("Wednesday");
+    break;
+    case 2: printf("Thursday");
+    break;
+    case 3: printf("Friday");
+    break;
+    case 4: printf("Saturday");
+    break;
+    case 5: printf("Sunday");
+    break;
+    case 6: printf("Monday");
+    break;
+    case 7: printf("Tuesday");
+    break;
+    default:printf("BSDK");
+}
+}
