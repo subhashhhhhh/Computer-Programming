@@ -2,61 +2,66 @@
 #include <string>
 using namespace std;
 
-struct Student{
-    string name;
-    int rollNo;
-    string degree;
-    string hostel;
-    float currentCGPA;
-}
+struct Student {
+  string name;
+  int rollNo;
+  string degree;
+  string hostel;
+  float currentCGPA;
 
-void addDetails(){
-    cout << "Enter your name: ";
+  // Member function to add details
+  void addDetails() {
+    cout << "Enter name: ";
     cin >> name;
-    cout << "Enter Roll no: ";
+    cout << "Enter roll number: ";
     cin >> rollNo;
-    cout << "Enter your degree: ";
+    cout << "Enter degree: ";
     cin >> degree;
-    cout << "Enter your hostel: ";
+    cout << "Enter hostel: ";
     cin >> hostel;
-    cout << "Enter your current CGPA: ";
+    cout << "Enter current CGPA: ";
     cin >> currentCGPA;
-}
+  }
 
-void updateDetails(){
-    cout << "Enter a new name";
+  // Member function to update details
+  void updateDetails() {
+    cout << "Enter new name: ";
     cin >> name;
-    cout << "Enter a new Roll no";
+    cout << "Enter new roll number: ";
     cin >> rollNo;
-    cout << "Enter a new degree";
+    cout << "Enter new degree: ";
     cin >> degree;
-}
+  }
 
-void updateCGPA(){
-    cout << "Enter a new CGPA";
+  // Member function to update CGPA
+  void updateCGPA() {
+    cout << "Enter new CGPA: ";
     cin >> currentCGPA;
-}
+  }
 
-void updateHostel(){
-    cout << "Enter a new hostel";
+  // Member function to update residence info
+  void updateResidenceInfo() {
+    cout << "Enter new hostel: ";
     cin >> hostel;
-}
+  }
 
-void displayDetails(){
+  // Member function to display details
+  void displayDetails() {
     cout << "Name: " << name << endl;
-    cout << "Roll no: " << rollNo << endl;
+    cout << "Roll number: " << rollNo << endl;
     cout << "Degree: " << degree << endl;
     cout << "Hostel: " << hostel << endl;
-    cout << "Current CGPA: " << currentCGPA << endl;
-}
+    cout << "CGPA: " << currentCGPA << endl;
+  }
+};
 
 int main() {
   Student s;
   s.addDetails();
-  std::cout << "Student details:" << std::endl;
+  cout << "Student details:" << endl;
   s.displayDetails();
   s.updateDetails();
-  std::cout << "Updated student details:" << std::endl;
+  cout << "Updated student details:" << endl;
   s.displayDetails();
 
   return 0;
