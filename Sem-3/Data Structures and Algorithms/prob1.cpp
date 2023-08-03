@@ -10,7 +10,7 @@ void createArray(){
     cout << "Enter the size of the array: ";
     cin >> size;
 
-    cout << "Enter" << size << "elements";
+    cout << "Enter " << size << " elements" << endl;
     for(int i=0;i<size;i++){
         cin >> arr[i];
     }
@@ -82,9 +82,9 @@ int main(){
             case 4: deleteElement();
             break;
             case 5: linearSearch();
-            break:
+            break;
             case 6: exit(0);
-            break:
+            break;
             default: cout << "Invalid choice";
         }
     } while(choice!=6);
