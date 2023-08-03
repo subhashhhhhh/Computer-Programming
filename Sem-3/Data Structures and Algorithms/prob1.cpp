@@ -50,11 +50,8 @@ void linearSearch(){
 
     for(int i=0;i<size;i++){
         if(arr[i]==ele){
-            cout << "Element found at position" << i+1;
+            cout << "Element found at position " << i+1;
             return;
-        }
-        else{
-            cout << "Element not found";
         }
     }
 }
