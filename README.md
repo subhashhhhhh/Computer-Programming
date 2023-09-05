@@ -1,1 +1,3 @@
-This includes my practical files
+# Computer Programming
+A GitHub Repo for all my lab assignments across semesters
+
