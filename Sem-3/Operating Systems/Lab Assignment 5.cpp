@@ -52,7 +52,7 @@ int main(){
     cout << "Enter your choice: ";
     cin >> choice;
 
-      if (choice == 1) {
+    if (choice == 1) {
         sortByArrivalTime(processes, n);  // FCFS
     } else if (choice == 2) {
         sortByBurstTime(processes, n);  // SJF (Non-preemptive)
